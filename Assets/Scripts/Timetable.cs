@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Timetable : MonoBehaviour
 {
+    Course[,] timeTable = new Course[5, 8];
+
     // Start is called before the first frame update
     void Start()
     {
