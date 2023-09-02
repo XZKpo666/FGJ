@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Course : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string course_Name;
+    private float passRate;
+    enum Course_Type { };
+
+    private void OnMouseDown()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
