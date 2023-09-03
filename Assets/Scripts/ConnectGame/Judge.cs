@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class Judge : MonoBehaviour
 {
     public int arrow = 1;
@@ -19,6 +20,8 @@ public class Judge : MonoBehaviour
     public Sprite passArrow;
 
     GameObject[] arrowImages = new GameObject[6];
+
+    
 
     private void Awake()
     {

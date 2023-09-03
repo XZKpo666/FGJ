@@ -25,6 +25,6 @@ public class Botton : MonoBehaviour
     
     public void StartBotton()
     {
-        //SceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 }
