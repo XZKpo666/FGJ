@@ -45,27 +45,7 @@ public class DialogManager : MonoBehaviour
 
         "「嗯?這裡怎麼有一個沒看過的按鈕?」",
 
-        "當澪按下那個按鈕後，出現來一個奇怪的畫面",
-
-        "「請輸入授權認證」",
-
-        "「警告，偵測到網路異常，傳輸指令導致伺服器超載」",
-
-        "「與管理伺服器斷開連線」",
-
-        "「欸!? 剛剛連線到的是管理伺服器?」",
-
-        "話尚未說完，奇怪的畫面就消失了，選課系統重新顯示出來" +"\n" +
-        "原本一片空白的課表被填滿了課程，至於上方顯示的學分計算──",
-
-        "「25000分!? 這也太多了吧」",
-
-        "眼看時間已經不夠了，顧不了那麼多的澪按下了送出按鍵，最後畫面顯示已成功選課。",
-
-        "直到星期一，澪淋著雨到學校上課時" +"\n" +
-        "才得知，電算中心專門負責選課系統的伺服器，在凌晨的時候因不明原因爆炸起火",
-
-        "所以大家都要重新選課了"
+        "當澪按下那個按鈕後，出現來一個奇怪的畫面"
 
     };
 
@@ -124,12 +104,6 @@ public class DialogManager : MonoBehaviour
                 player.SetActive(true);
                 ic.ImageChance0(7);
                 SceneManager.LoadScene(2);
-                break;
-
-            case 21:
-                nameBox.SetActive(true);
-                player.SetActive(true);
-                ic.ImageChance0(7);
                 break;
 
             default:

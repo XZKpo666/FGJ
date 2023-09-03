@@ -113,7 +113,7 @@ public class DialogManager1 : MonoBehaviour
                 break;
 
             case 10:
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(0);
                 break;
 
 
