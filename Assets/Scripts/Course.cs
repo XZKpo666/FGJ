@@ -8,11 +8,13 @@ public class Course : MonoBehaviour
 {
     private Timetable tt;
     [SerializeField] TextMeshProUGUI peopleNumText;
+    [SerializeField] private int courseDay;
+    [SerializeField] private int courseSorce;
     
     // Start is called before the first frame update
     void Start()
     {
-        tt = GameObject.Find("TimetableManager").GetComponent<Timetable>();
+        //tt = GameObject.Find("TimetableManager").GetComponent<Timetable>();
         StartCoroutine(CousePeople());
     }
 
