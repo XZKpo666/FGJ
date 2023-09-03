@@ -14,7 +14,7 @@ public class Botton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void LeaveBotton()
@@ -25,6 +25,6 @@ public class Botton : MonoBehaviour
     
     public void StartBotton()
     {
-        SceneManager.LoadScene(0);
+        //SceneManager.LoadScene(0);
     }
 }

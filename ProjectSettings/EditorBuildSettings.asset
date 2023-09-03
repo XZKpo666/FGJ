@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Meun.unity
     guid: fef53c3d0c4c1f34e889e23d0328ae0f
+  - enabled: 1
+    path: Assets/Scenes/ConnectGame.unity
+    guid: 0591cff7d34d5af4c8031e70ae028eb1
   m_configObjects: {}
