@@ -4,22 +4,28 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public float speed = 1;
+    private float speed = 10;
+    public Judge judge;
 
     void Start()
     {
-        
+
     }
 
 
     void Update()
     {
-        Movement();
+        if (judge.arrow == 7)
+        {
+            if (transform.position.x < 7)
+            {
+                Movement();
+            }
+        }
     }
 
     void Movement()
     {
-        //if (transform.position.x )
-        //transform.position = new Vector2(speed * Time.deltaTime, 0);
+        transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
     }
 }
